@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'pre-processor' > README.md
+echo 'pre-processor stage' > README.md
