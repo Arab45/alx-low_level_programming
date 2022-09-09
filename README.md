@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'C Hello New1' > README.md
+echo 'C Hello New2' > README.md
