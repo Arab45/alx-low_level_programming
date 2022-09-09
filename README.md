@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'C Hello New4' > README.md
+echo 'New Task' > README.md
