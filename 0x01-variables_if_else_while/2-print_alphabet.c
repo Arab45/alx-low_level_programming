@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - print lowercae a-z
- *  
- * Return: Always 0(Success)
+ *main - print lowercae a-z
+ *
+ *Return: Always 0(Success)
  */
 int main(void)
 {
-        char alpha = 'a';
+	char alpha = 'a';
 
 	while (alpha <= 'z')
 	{
