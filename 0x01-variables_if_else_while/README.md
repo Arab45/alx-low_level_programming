@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'Variable 001' > README.md
+echo 'Variable 101' > README.md
