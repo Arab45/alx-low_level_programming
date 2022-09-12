@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'New Task 0' > README.md
+echo 'New Task 01' > README.md
