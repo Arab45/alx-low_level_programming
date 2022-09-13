@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'Putchar 1' > README.md
+echo 'Putchar 3' > README.md
