@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'static lib' > README.md
+echo 'lib 01' > README.md
