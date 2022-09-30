@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'static' > README.md
+echo 'static 1' > README.md
