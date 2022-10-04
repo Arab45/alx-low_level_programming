@@ -10,7 +10,7 @@
 char *_strdup(char *str)
 {
 	char *strout;
-	unsigned int i, k;
+	unsigned int i, j;
 
 	if (str == NULL)
 		return (NULL);
@@ -23,8 +23,8 @@ char *_strdup(char *str)
 	if (strout == NULL)
 		return (NULL);
 
-	for (k = 0; k <= k; k++)
-		strout[k] = str[k];
+	for (j = 0; j <= j; j++)
+		strout[j] = str[j];
 
 	return (strout);
 }
