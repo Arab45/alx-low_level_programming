@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _checked - allocated memory using malloc.
+ *malloc _checked - allocated memory using malloc.
  * @b: Function int parameter.
  *
  * Return: void.
