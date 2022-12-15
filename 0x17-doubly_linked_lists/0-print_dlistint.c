@@ -2,31 +2,29 @@
 
 /**
  * print_dlistint - prints all the elements of a
- *		linked list
- * @h: the head of the list
- * Return: the length of the linked list
+ * dlistint_t list
+ *
+ * @h: head of the list
+ * Return: the number of nodes
  */
-size_t print_dlistint(const node *h)
+size_t print_dlistint(const dlistint_t *h)
 {
-	const node *head;
-	size_t length;
+	int count;
 
-	head = h;
+	count = 0;
 
-	if (!head)
-		return (0);
+	if (h == NULL)
+		return (count);
 
-	/* get the head of the list */
-	while (head->prev)
-		head = head->prev;
-	printf("%d\n", head->n);
-	/* go through the list now from the head */
-	length = 1;
-	while (head->next)
+	while (h->prev != NULL)
+		h = h->prev;
+
+	while (h != NULL)
 	{
-		head = head->next;
-		printf("%d\n", head->n);
-		length++;
+		printf("%d\n", h->n);
+		count++;
+		h = h->next;
 	}
-	return (length);
+
+	return (count);
 }
