@@ -1,1 +1,2 @@
-the dynamic library libdynamic.so
+#!/bin/bash
+echo 'my dynmac' > README.md
